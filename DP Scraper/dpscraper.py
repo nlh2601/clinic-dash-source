@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import time
 
-API_KEY = "7a6c5fb57c8e7b9d523b760a919404cc14aca9e6"
+API_KEY = "API_KEY_HERE" # Replace with Api Key
 
 # Trimmed list for reliability across 2020–2022
 variables = {
@@ -48,3 +48,4 @@ for year in years:
 
     except Exception as e:
         print(f"❌ Failed for {year}: {e}")
+
