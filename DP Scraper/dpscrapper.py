@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import time
 
-API_KEY = "7a6c5fb57c8e7b9d523b760a919404cc14aca9e6"
+API_KEY = "API_KEY_HERE" # replace with api key
 variables = {
     "DP03_0062E": "Median_Household_Income",
     "DP03_0009PE": "Unemployment_Rate_Pct",
@@ -45,3 +45,4 @@ for year in years:
 
     except Exception as e:
         print(f"❌ Failed for {year}: {e}")
+
